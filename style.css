@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'outrun_futureregular';
+    src: url('outrun_future-webfont.woff2') format('woff2'),
+         url('outrun_future-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+color: white ;
+font-family: 'Teko', sans-serif;
+}
+
+body {
+    background-color:transparent;
+    background-image: url(imagenes/background.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+}
+
+.main-img {
+width: 100%;
+background-color: transparent;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+position: relative;
+overflow: visible;
+
+}
+
+.main-img img{
+top: 1em;
+width: 101%;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+position: absolute;
+overflow: hidden;
+margin-block-start: -1.5em;
+}
+
+.header {
+background-color: rgb(0, 0, 0);
+padding: 0.1vw;
+z-index: 1;
+width: 100%;
+position: fixed;
+text-decoration: none;
+list-style: none;
+top: 0;
+}
+
+.header-container {
+background-color: transparent;
+display: flex;
+justify-content: space-between;
+width: 50%;
+margin: auto;
+align-items: center;
+}
+
+.header-container li a {
+background-color: transparent;
+font-size: 1.3vmax;
+text-decoration: none;
+transition: all 0.4s;
+}
+
+.sesgoabajo{
+margin-top: -34vw;
+background-color: transparent;
+position: absolute;
+left: 0;
+border-width: 1vw 0 20vw 200vw;
+border-style: solid;
+border-color: transparent transparent transparent transparent
+}
+
+.videos-nuevos {
+margin-top: 60vw;
+left: 0;
+right: 0;
+}
+
+
+.videos-nuevos iframe{
+    height: 40vw;
+    width: 70vw;
+}
+
+.header-container li a:hover {
+    color:rgb(207, 10, 10);
+} 
+
+.main{
+    box-sizing: content-box;
+    align-items: center;
+}
+
+.main h1 {
+font-size: 13vw;
+position: relative;
+text-align: center;
+font-family: 'outrun_futureregular';
+font-weight: lighter;
+font-style: lighter;
+color:rgb(207, 10, 10);
+background-color: transparent;
+position: absolute;
+text-shadow: 8px 2px 2px rgba(0, 0, 0, 0.897);
+animation: vibrasion 0.3s infinite;
+top: 0;
+right: 0;
+left: 0;
+margin-top: -0.2em;
+}
+
+.main h3 {
+font-size: 8vw;
+color:blanchedalmond;
+text-shadow: black;
+text-align: center;
+background-color: transparent;
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+margin-top: 3.5em;
+
+
+}
+
+.videos-nuevos div iframe{
+display: grid;
+margin: 10px auto;
+align-items: center;
+}
+
+.titulo-video {
+font-size: 3vw;
+margin: 6vw 6vw;
+text-align-last: center;
+}
+
+.lista-spotify-titulo {
+font-size: 3vw;
+margin: 2vw 2vw;
+text-align-last: center;
+}
+
+.lista-spotify-temas {
+display: grid;
+align-items: center;
+}
+
+.lista-spotify-temas iframe {
+    display: grid;
+    margin: 30px auto;
+    align-items: center;
+    height: 26vw;
+    width: 22vw;
+
+}
+
+.footer-texto {
+font-size: 2rem;
+text-align-last: center;
+}
+
+.footer {
+width: 100%;
+margin: 1em; 
+}
+
+.footer-container-item {
+display: flex;
+justify-content: space-between;
+width: 50%;
+margin: auto;
+align-items: center;
+}
+
+.footer-container-item i{
+transition: all 0.4s;
+}
+
+.footer-container-item i:hover {
+color: rgb(119, 119, 119);  
+}
+
+@keyframes vibrasion {
+    
+    0%{left: 3px;}
+    12%{bottom: 3px;}
+    21%{left: 4px;}
+    35%{bottom: 3px;}
+    40%{left: 4px;}
+    53%{right: 3px;}
+    62%{bottom: 4px;}
+    74%{top: 3px;}
+    81%{left: 4px;}
+    93%{bottom: 3px;}
+    99%{top: 4px;}
+}
