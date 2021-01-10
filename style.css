@@ -71,13 +71,13 @@ align-items: center;
 
 .header-container li a {
 background-color: transparent;
-font-size: 1.3vmax;
+font-size: 1.5rem;
 text-decoration: none;
 transition: all 0.4s;
 }
 
 .videos-nuevos {
-margin-top: 50vw;
+margin-top: 54vw;
 left: 0;
 right: 0;
 }
@@ -127,7 +127,6 @@ right: 0;
 left: 0;
 margin-top: 3.5em;
 
-
 }
 
 .videos-nuevos div iframe{
@@ -137,15 +136,17 @@ align-items: center;
 }
 
 .titulo-video {
-font-size: 2.5vw;
+font-size: 3rem;
 margin: 6vw 6vw;
 text-align-last: center;
 }
 
 .lista-spotify-titulo {
-    font-size: 2.5vw;
-margin: 2vw 2vw;
+font-size: 3rem;
+margin: 4vw;
 text-align-last: center;
+margin-top: 4vw;
+margin-bottom: 0vw;
 }
 
 .lista-spotify-temas {
@@ -155,16 +156,18 @@ align-items: center;
 
 .lista-spotify-temas iframe {
     display: grid;
-    margin: 30px auto;
+    margin: 30vh auto;
     align-items: center;
-    height: 26vw;
-    width: 22vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+
 
 }
 
 .footer-texto {
-font-size: 2.5vw;
-text-align-last: center;
+    font-size: 3rem;
+margin-bottom: 4vw;
+text-align: center;
 }
 
 .footer {
@@ -183,7 +186,7 @@ align-items: center;
 
 .footer-container-item i{
 transition: all 0.4s;
-font-size: 2vw;
+font-size: 3rem;
 }
 
 .footer-container-item i:hover {
@@ -207,15 +210,19 @@ color: rgb(119, 119, 119);
 
 @media (max-width:768px){
 
-
     .header-container {
     margin-top: 0.2vw;
     width: 80%;
     font-size: 1.5vh;
-    }
+}
 
    body {
-
     background-image: url(imagenes/background_large.jpg);
-   } 
-  }
+} 
+  
+   .videos-nuevos iframe{
+    width: 95%;   
+}
+
+
+}
