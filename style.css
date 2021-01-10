@@ -75,16 +75,6 @@ text-decoration: none;
 transition: all 0.4s;
 }
 
-.sesgoabajo{
-margin-top: -34vw;
-background-color: transparent;
-position: absolute;
-left: 0;
-border-width: 1vw 0 20vw 200vw;
-border-style: solid;
-border-color: transparent transparent transparent transparent
-}
-
 .videos-nuevos {
 margin-top: 60vw;
 left: 0;
@@ -211,3 +201,13 @@ color: rgb(119, 119, 119);
     93%{bottom: 3px;}
     99%{top: 4px;}
 }
+
+@media (max-width:768px){
+
+
+    .header-container {
+    margin-top: 0.2vw;
+    width: 80%;
+    font-size: 2vh;
+    }
+  }
