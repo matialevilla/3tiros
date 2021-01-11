@@ -221,8 +221,10 @@ color: rgb(119, 119, 119);
 } 
   
    .videos-nuevos iframe{
-    width: 95%;   
+    width: 95%;  
+
 }
-
-
+.lista-spotify-temas iframe {
+    width: 80%;  
+}
 }
