@@ -156,7 +156,7 @@ align-items: center;
 
 .lista-spotify-temas iframe {
     display: grid;
-    margin: 30vh auto;
+    margin: 30vw auto;
     align-items: center;
     margin-top: 4vw;
     margin-bottom: 4vw;
@@ -165,7 +165,7 @@ align-items: center;
 }
 
 .footer-texto {
-    font-size: 3rem;
+font-size: 3rem;
 margin-bottom: 4vw;
 text-align: center;
 }
@@ -208,7 +208,7 @@ color: rgb(119, 119, 119);
     99%{top: 4px;}
 }
 
-@media (max-width:768px){
+@media (min-width:768px){
 
     .header-container {
     margin-top: 0.2vw;
@@ -225,6 +225,45 @@ color: rgb(119, 119, 119);
 
 }
 .lista-spotify-temas iframe {
-    width: 80%;  
+    width: 40vh;
+    height: 50vh; 
+}
+}
+
+    @media (min-width: 375px) {
+
+.header-container {
+    margin-top: 0.2vw;
+    width: 80%;
+    font-size: 1.5vh;
+}
+
+   body {
+    background-image: url(imagenes/background_large.jpg);
+} 
+  
+   .videos-nuevos iframe{
+    width: 95%;  
+
+}
+.lista-spotify-temas iframe {
+    max-width: 80%;
+    width: 40vw;
+    height: 50vw; 
+} 
+
+.titulo-video {
+    font-size: 1.5rem;
+}
+.footer-texto {
+    font-size: 1.5rem;
+}
+
+.footer-container-item i{
+    font-size: 1.5rem;
+}
+
+.lista-spotify-titulo {
+    font-size: 1.5rem;
 }
 }
